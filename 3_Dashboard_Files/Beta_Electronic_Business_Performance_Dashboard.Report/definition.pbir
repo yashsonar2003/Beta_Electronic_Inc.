@@ -1,8 +1,0 @@
-{
-  "version": "4.0",
-  "datasetReference": {
-    "byPath": {
-      "path": "../Beta_Electronic_Business_Performance_Dashboard.SemanticModel"
-    }
-  }
-}
