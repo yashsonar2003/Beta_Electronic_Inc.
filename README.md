@@ -21,7 +21,7 @@ Built using **Advanced DAX, structured data modeling, and a custom glassmorphism
 - **Fulfillment & Logistics**: Tracks supply chain efficiency across 3,000 orders, monitoring key benchmarks including Average Shipping Time 3.34 Days, On-Time Delivery 85.80% and Return Rates 5.43%.
 - **Segmented Customer Experience**: Measures account behavior across 863 active customers, highlighting strong Repeat Rustomer Retention 88.2% vs. 65.0% Target and Channel Satisfaction Scores 4.01 / 5.00.
 
----
+-----
 
 ### Dataset Description (Processed Data):-
 The dataset consists of 3001 records with 28 structured columns.
@@ -56,7 +56,7 @@ The dataset consists of 3001 records with 28 structured columns.
 - Delivery Status
 - Customer Rating
 
----
+-----
 
 ### Tools Used:-
 - Google Sheets
@@ -65,7 +65,7 @@ The dataset consists of 3001 records with 28 structured columns.
 - Gamma AI Presentation
 - Microsoft PowerPoint
 
----
+-----
 
 ### Dashboard Preview:-
 ![1_Dashboard](3_Files_&_Dashboard/1_Dashboard_Screenshots/1_Profitability_&_Discount_Analytics.png)
@@ -73,7 +73,21 @@ The dataset consists of 3001 records with 28 structured columns.
 ![3_Dashboard](3_Files_&_Dashboard/1_Dashboard_Screenshots/3_Fulfillment_&_Logistics.png)
 ![4_Dashboard](3_Files_&_Dashboard/1_Dashboard_Screenshots/4_Segmented_Customer_Experience.png)
 
-----
+-----
 
+### Project Structure:-
+- Beta_Electronic_Inc.
+  - 1_Processed_Data/:- Processed Dataset.
+  - 2_Business_Objective/:- Business Objective PDF.
+  - 3_Files_&_Dashboard/:- Dashboard and Dashboard Releated Files.
+  - 4_B.E.Inc._Business_Report/:- Business Insights & Recommendations PDF.
+  - 5_B.E.Inc._Presentation/:- Presentation PPTX and PDF files.
+  - README.md:- Project Documentation.
 
-**[Download Executive Performance Report (PDF)](Beta_Electronic_Inc./5_B.E.Inc._Presentation/Executive_Performance.pdf)**
+-----
+
+### Author:-
+Yash Sonar
+BBA Student | Aspiring Data Analyst
+
+-----
