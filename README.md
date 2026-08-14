@@ -75,6 +75,4 @@ The dataset consists of 3001 records with 28 structured columns.
 
 ----
 
-**[Executive Performance Presentation (PDF)](Executive_Performance_Report.pdf)**
-
 
