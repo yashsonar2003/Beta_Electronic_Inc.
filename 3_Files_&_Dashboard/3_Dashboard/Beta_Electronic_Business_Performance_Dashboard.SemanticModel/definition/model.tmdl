@@ -1,0 +1,22 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Beta_Electronics_Data"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Beta_Electronics_Data
+ref table DateTableTemplate_b5a160db-846e-4262-bee4-590e76b00052
+ref table LocalDateTable_228f3b15-efe0-4168-a011-4244087bae22
+ref table LocalDateTable_1bd5bf20-5ea4-40ed-87b4-8621dc870f4e
+
+ref cultureInfo en-IN
+

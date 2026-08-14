@@ -1,0 +1,10 @@
+relationship eb2afbdb-aec1-43cc-add3-2478a1a298a1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Beta_Electronics_Data.'Order Date'
+	toColumn: LocalDateTable_228f3b15-efe0-4168-a011-4244087bae22.Date
+
+relationship 444b7c02-11b1-4f96-a69c-789b2df4391b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Beta_Electronics_Data.'Ship Date'
+	toColumn: LocalDateTable_1bd5bf20-5ea4-40ed-87b4-8621dc870f4e.Date
+

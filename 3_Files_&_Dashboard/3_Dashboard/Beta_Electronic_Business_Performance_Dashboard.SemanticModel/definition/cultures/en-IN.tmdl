@@ -1,0 +1,6807 @@
+cultureInfo en-IN
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "beta_electronics_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "beta electronics data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Beta_Electronics_Data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "electronics data": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "beta electronics information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "beta electronics fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "beta electronics info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "beta electronics statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "electronics information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "electronics fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "electronics info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "electronics statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "beta electronics document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "beta electronics figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.order_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Order Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "order moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Order Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Order Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "order moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Order Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "order qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "order moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Order Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "order mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "order moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Order Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "order period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Ship Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "ship moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ship period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Ship Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Ship Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "ship yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "ship moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "ship period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Ship Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "ship qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "ship moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "ship period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Ship Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "ship mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "ship moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "ship period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.ship_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "VariationSource": "Ship Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ship date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "ship period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "beta_electronics_data.order_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Order ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "order credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.sales_channel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Sales Channel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sales channel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale channel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "channel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sale frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sale station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sale network": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "network": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sale conduit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "sale waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "conduit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.order_priority": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Order Priority"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "order priority": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "priority": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "order importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order precedence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order urgency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "order primacy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "precedence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "urgency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "primacy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.product_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Product ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.product_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Product Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "product classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.product_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Product Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "product nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "product tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "artifact name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "item name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.unit_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Unit Cost ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit cost ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "module cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "element cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "entity cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "unit cost ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "group cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "component cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "constituent cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "item cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "part cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "section cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.unit_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Unit Price ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit price ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "module price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "element price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "entity price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "unit price ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "group price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "component price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "constituent price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "item price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "part price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "section price ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.customer_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Customer ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.customer_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Customer Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "customer nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.customer_segment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Customer Segment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer segment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "segment": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "customer section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer fragment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "customer piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "City"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.gross_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Gross Sales ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gross sale ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Gross Sales ($)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate sale ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "overall sale ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "whole sale ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "whole sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "gross sale ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "sum sale ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "total sale ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "sum sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.discount_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Discount %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discount percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "discount pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.discount_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Discount Amount ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "discount amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discount amount ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "discount amount ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "discount quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "discount sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "discount total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "discount aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.net_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Net Sales ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "net sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "net sale ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Net Sales ($)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "net sale ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "net auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "net transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "net deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "net selling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.total_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Total Cost ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total cost ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total cost ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "aggregate cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall cost ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "aggregate cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.gross_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Gross Profit ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gross profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gross profit ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "overall profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "whole profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.673
+			          }
+			        },
+			        {
+			          "aggregate profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "overall profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "whole profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.647
+			          }
+			        },
+			        {
+			          "gross profit ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "sum profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "sum profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "gross income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.profit_margin_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Profit Margin %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit margin %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit margin percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "profit margin pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.shipping_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Shipping Cost ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "shipping cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "shipping cost ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "shipping cost ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "shipping price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "shipping charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "shipping rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "shipping fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "shipping total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shipping expenditure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.ship_mode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Ship Mode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ship mode": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mode": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ship manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ship method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ship genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ship style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship approach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ship type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.delivery_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Delivery Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "delivery status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "delivery category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "delivery prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "delivery condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "delivery class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "delivery grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.customer_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Customer Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "shopper rating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "customer assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "customer evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.total_net_sales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Total Net Sales ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total net sales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total net sales ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "net sales": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total net sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "aggregate net sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall net sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.total_cost1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Total Cost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.total_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Total Profit ($)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total profit ($)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total profit ( dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "aggregate profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall profit ($)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "aggregate profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "dollar",
+			        "$"
+			      ]
+			    },
+			    "beta_electronics_data.profit_margin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Profit Margin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profit margin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "margin": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "profit boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "profit periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "profit border": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit brim": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit sideline": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "profit edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "Profit Margin %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.avg__discount_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Avg. Discount %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg. discount %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg. discount percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "avg. discount pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "average . discount %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.total_units_sold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Total Units Sold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total units sold": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total unit sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "aggregate unit sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall unit sold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.avg__days_to_ship": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Avg. Days to Ship"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg. days to ship": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average . day to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "avg. existence to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "avg. being to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "avg. living to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "avg. eras to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "avg. generation to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "avg. epoch to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "avg. period to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "avg. age to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.479
+			          }
+			        },
+			        {
+			          "avg. daylight to ship": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.455
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.return_rate_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Return Rate %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "return rate %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "return rate percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "return rate pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "beta_electronics_data.avg__unit_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Beta_Electronics_Data",
+			          "ConceptualProperty": "Avg. Unit Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg. unit revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "avg. unit income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "avg. unit profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "avg. unit turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "avg. unit yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "avg. module revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "avg. element revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "avg. entity revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "average . unit revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg. group revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg. component revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "beta_electronics_data_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.unit_cost": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.unit_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.unit_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unit_cost_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.unit_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_unit_costs"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive1": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.unit_price": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.unit_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unit_price_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_unit_prices"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive2": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.gross_sale": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.gross_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.gross_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gross_sale_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.gross_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_gross_sales"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive3": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.discount_amount": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.discount_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.discount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "discount_amount_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.discount_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_discount_amounts"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive4": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.net_sale": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.net_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.net_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "net_sale_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.net_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_net_sales"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive5": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.total_cost": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.total_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_cost_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_total_costs"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive6": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.gross_profit": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.gross_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.gross_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gross_profit_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.gross_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_gross_profits"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive7": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.shipping_cost": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.shipping_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.shipping_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "shipping_cost_indicates_how_expensive_beta_electronics_data_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.shipping_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_shipping_costs"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_expensive8": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.total_cost1": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.total_cost1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "beta_electronics_data.total_cost1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_cost_indicates_how_expensive_beta_electronics_data_are1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.total_cost1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_total_cost"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_delivery_status": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.delivery_status": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.delivery_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "DynamicAdjective": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Adjective": {
+			              "Role": "beta_electronics_data.delivery_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "delivery_statuses_describe_beta_electronics_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.delivery_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_delivery_statuses"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_ordered_on_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.order_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "beta_electronics_data.order_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "order": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "beta_electronics_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "beta_electronics_data_are_ordered_on_order_dates"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_is_shipped_on_ship_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.ship_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "beta_electronics_data.ship_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "ship": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "beta_electronics_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "beta_electronics_data_are_shipped_on_ship_dates"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.country": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "beta_electronics_data.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "beta_electronics_data.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_are_in_countries"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.region": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "beta_electronics_data.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "beta_electronics_data.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_are_in_regions"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.city": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "beta_electronics_data.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "beta_electronics_data.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_are_in_cities"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_order_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.order_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_order_dates"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_ship_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.ship_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_ship_dates"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_order_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.order_ID": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_order_ID"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_sales_channel": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.sales_channel": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.sales_channel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.sales_channel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_sales_channels"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_order_priority": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.order_priority": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_priority"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_priority"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_order_priorities"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_product_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.product_ID": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.product_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.product_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_product_ID"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_product_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.product_category": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.product_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.product_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_product_categories"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_product_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.product_name": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.product_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.product_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_product_names"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_customer_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.customer_ID": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.customer_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.customer_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_customer_ID"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_customer_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.customer_name": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.customer_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.customer_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_customer_names"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_customer_segment": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.customer_segment": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.customer_segment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.customer_segment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_customer_segments"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.country": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_countries"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.region": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_regions"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.city": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_cities"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.quantity": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_quantities"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_discount_": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.discount_": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.discount_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.discount_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_discount_"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_profit_margin_": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.profit_margin_": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.profit_margin_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.profit_margin_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_profit_margin_"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_ship_mode": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.ship_mode": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_mode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_mode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_ship_modes"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_customer_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.customer_rating": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.customer_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.customer_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_customer_rating"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_total_net_sales": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.total_net_sales": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.total_net_sales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.total_net_sales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_total_net_sales"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_total_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.total_profit": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.total_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.total_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_total_profit"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_profit_margin": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.profit_margin": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.profit_margin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.profit_margin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_profit_margin"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_avg__discount_": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.avg__discount_": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.avg__discount_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.avg__discount_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_avg__discount_"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_total_units_sold": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.total_units_sold": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.total_units_sold"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.total_units_sold"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_total_units_sold"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_avg__days_to_ship": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.avg__days_to_ship": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.avg__days_to_ship"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.avg__days_to_ship"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_avg__days_to_ship"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_return_rate_": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.return_rate_": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.return_rate_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.return_rate_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_return_rate_"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_has_avg__unit_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data": {
+			          "Target": {
+			            "Entity": "beta_electronics_data"
+			          }
+			        },
+			        "beta_electronics_data.avg__unit_revenue": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.avg__unit_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.avg__unit_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "beta_electronics_data_have_avg__unit_revenue"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_order_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.order_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date"
+			          }
+			        },
+			        "beta_electronics_data.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.order_date"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_dates_have_order_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_order_date_date_hierarchy_has_beta_electronics_data_order_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.order_date.year": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_years"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_order_date_date_hierarchy_has_beta_electronics_data_order_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.order_date.quarter": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_quarters"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_order_date_date_hierarchy_has_beta_electronics_data_order_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.order_date.month": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_months"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_order_date_date_hierarchy_has_beta_electronics_data_order_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.order_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.order_date.day": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.order_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.order_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.order_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "order_date_hierarchies_have_order_days"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_ship_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.ship_date": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date"
+			          }
+			        },
+			        "beta_electronics_data.ship_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.ship_date"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_dates_have_ship_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_ship_date_date_hierarchy_has_beta_electronics_data_ship_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.ship_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.ship_date.year": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.ship_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_date_hierarchies_have_ship_years"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_ship_date_date_hierarchy_has_beta_electronics_data_ship_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.ship_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.ship_date.quarter": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.ship_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_date_hierarchies_have_ship_quarters"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_ship_date_date_hierarchy_has_beta_electronics_data_ship_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.ship_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.ship_date.month": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.ship_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_date_hierarchies_have_ship_months"
+			        }
+			      ]
+			    },
+			    "beta_electronics_data_ship_date_date_hierarchy_has_beta_electronics_data_ship_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Beta_Electronics_Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "beta_electronics_data.ship_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.date_hierarchy"
+			          }
+			        },
+			        "beta_electronics_data.ship_date.day": {
+			          "Target": {
+			            "Entity": "beta_electronics_data.ship_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "beta_electronics_data.ship_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "beta_electronics_data.ship_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ship_date_hierarchies_have_ship_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

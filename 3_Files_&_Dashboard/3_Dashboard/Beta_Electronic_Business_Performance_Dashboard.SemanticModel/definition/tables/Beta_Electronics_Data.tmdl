@@ -1,0 +1,401 @@
+table Beta_Electronics_Data
+	lineageTag: a3681a78-c655-420c-a03e-f9e7382ed81f
+
+	measure 'Total Net Sales ($)' = SUM(Beta_Electronics_Data[Net Sales ($)])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 1d19b56c-8a5b-4a68-a334-fa6f1509c2a7
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Total Cost' = SUM(Beta_Electronics_Data[Total Cost ($)])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2032784b-658d-49ca-a079-0c12166f8e76
+
+	measure 'Total Profit ($)' = SUM(Beta_Electronics_Data[Gross Profit ($)])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2ae7488b-c1e6-4ca4-a0b8-e47bb30ccb54
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Profit Margin' = SUM(Beta_Electronics_Data[Gross Profit ($)]) / SUM(Beta_Electronics_Data[Net Sales ($)])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: efab7e78-d4c2-4dd7-bb9e-3a5de4b26d27
+
+	measure 'Avg. Discount %' = AVERAGE(Beta_Electronics_Data[Discount %])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: f115d5a7-1b26-4a0f-9695-05fb845f5b0c
+
+	measure 'Total Units Sold' = SUM(Beta_Electronics_Data[Quantity])
+		formatString: 0
+		lineageTag: 23f105a2-aa49-4ec1-b639-842842f335b3
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Avg. Days to Ship' = ```
+			
+			AVERAGEX(
+			    Beta_Electronics_Data, 
+			    DATEDIFF(Beta_Electronics_Data[Order Date], Beta_Electronics_Data[Ship Date], DAY))
+			```
+		formatString: 0.00
+		lineageTag: 23bb0c2c-c2e6-429d-b99a-a7accd5ab468
+
+	measure 'Return Rate %' = ```
+			
+			DIVIDE(
+			    CALCULATE(
+			        COUNT(Beta_Electronics_Data[Order ID]), 
+			        Beta_Electronics_Data[Delivery Status] = "Returned"
+			    ),
+			    COUNT(Beta_Electronics_Data[Order ID]),
+			    0
+			)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0609f964-ea75-46db-a414-3964f666b6bf
+
+	measure 'Avg. Unit Revenue' = (Beta_Electronics_Data[Total Net Sales ($)] / [Total Units Sold])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 33665bba-2892-426b-8500-3edb25df9509
+
+	measure 'On-Time Delivery Rate %' = ```
+			DIVIDE(
+			    CALCULATE(
+			        COUNT(Beta_Electronics_Data[Order ID]), 
+			        Beta_Electronics_Data[Delivery Status] = "Delivered"
+			    ),
+			    COUNT(Beta_Electronics_Data[Order ID]),
+			    0
+			)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 1dfdd55c-5d00-4d4c-b9c0-82e8ce0d0eed
+
+	measure 'Total Orders Shipped' = DISTINCTCOUNT(Beta_Electronics_Data[Order ID])
+		formatString: 0.0
+		lineageTag: 3119b4f2-210a-4720-9acf-f2ad72726a3a
+
+	measure 'Avg. Customer Rating' = AVERAGE(Beta_Electronics_Data[Customer Rating])
+		formatString: 0.00
+		lineageTag: 8202804e-572e-47d4-afc2-854861aeb632
+
+	measure 'Total Customers' = DISTINCTCOUNT(Beta_Electronics_Data[Customer ID])
+		lineageTag: cdb37673-d314-4b90-80e2-616eb6db8839
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg. Spend per Customer' = DIVIDE([Total Net Sales ($)], DISTINCTCOUNT(Beta_Electronics_Data[Customer ID]), 0)
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: efd12cdf-d482-454c-9495-c61fcd657328
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Target Rating' = 4.0
+		lineageTag: 85f65b87-3177-416e-95f4-d98b3c915e1b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Satisfied Order %' =
+			
+			DIVIDE(
+			    CALCULATE(COUNT(Beta_Electronics_Data[Order ID]), Beta_Electronics_Data[Customer Rating] >= 4),
+			    COUNT(Beta_Electronics_Data[Order ID]),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: e4d48eb6-87ba-4d2e-b928-9ecb86d82d18
+
+	measure 'Avg. Units per Customer' =
+			
+			DIVIDE([Total Units Sold], DISTINCTCOUNT(Beta_Electronics_Data[Customer ID]), 0)
+		formatString: 0.00
+		lineageTag: ebc46860-29ef-4ce4-9d44-6923b0da119f
+
+	measure 'Repeat Buyer %' = ```
+			
+			VAR TotalCustomers = DISTINCTCOUNT(Beta_Electronics_Data[Customer ID])
+			VAR RepeatCustomers = 
+			    COUNTROWS(
+			        FILTER(
+			            VALUES(Beta_Electronics_Data[Customer ID]),
+			            CALCULATE(COUNT(Beta_Electronics_Data[Order ID])) > 1
+			        )
+			    )
+			RETURN 
+			DIVIDE(RepeatCustomers, TotalCustomers, 0)
+			```
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 664bc68f-5749-41e8-a138-9182d9db7c5f
+
+	measure 'Retention Goal %' = 0.65
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 7a4fa309-2bbf-4b16-9968-aac3c9846442
+
+	column 'Order Date'
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: addbbbd4-1cf5-43c6-92f0-1c7963da840b
+		summarizeBy: none
+		sourceColumn: Order Date
+
+		variation Variation
+			isDefault
+			relationship: eb2afbdb-aec1-43cc-add3-2478a1a298a1
+			defaultHierarchy: LocalDateTable_228f3b15-efe0-4168-a011-4244087bae22.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Ship Date'
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: b193b525-eb34-4613-9cd7-72832e094068
+		summarizeBy: none
+		sourceColumn: Ship Date
+
+		variation Variation
+			isDefault
+			relationship: 444b7c02-11b1-4f96-a69c-789b2df4391b
+			defaultHierarchy: LocalDateTable_1bd5bf20-5ea4-40ed-87b4-8621dc870f4e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Order ID'
+		dataType: string
+		lineageTag: f5d800e4-ea52-46e3-b153-51358c49340e
+		summarizeBy: none
+		sourceColumn: Order ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sales Channel'
+		dataType: string
+		lineageTag: a356c218-9dd4-4dbf-9852-f8c4f6f3fabf
+		summarizeBy: none
+		sourceColumn: Sales Channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Order Priority'
+		dataType: string
+		lineageTag: 06ef6215-d23b-4cd2-b750-adac4f605e42
+		summarizeBy: none
+		sourceColumn: Order Priority
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product ID'
+		dataType: string
+		lineageTag: 8ed30026-7401-4934-84a6-0f5354264dfb
+		summarizeBy: none
+		sourceColumn: Product ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Category'
+		dataType: string
+		lineageTag: bd2b5307-88f7-4e2a-92e2-c1297d35481c
+		summarizeBy: none
+		sourceColumn: Product Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Product Name'
+		dataType: string
+		lineageTag: 8b112cca-bd13-4463-9286-d8ec78232f3e
+		summarizeBy: none
+		sourceColumn: Product Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Unit Cost ($)'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: b73c46cd-c511-425a-bc70-478badb3669d
+		summarizeBy: sum
+		sourceColumn: Unit Cost ($)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Unit Price ($)'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: c47e0aa7-de25-465d-818f-38bd3cc82f0e
+		summarizeBy: sum
+		sourceColumn: Unit Price ($)
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	column 'Customer ID'
+		dataType: string
+		lineageTag: 3065c2a6-a454-4870-b560-007851503ff5
+		summarizeBy: none
+		sourceColumn: Customer ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer Name'
+		dataType: string
+		lineageTag: 4c46aa1a-e9b2-475a-99b2-17e96357bcdb
+		summarizeBy: none
+		sourceColumn: Customer Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer Segment'
+		dataType: string
+		lineageTag: c5f3385e-347b-4cc3-88ad-7427e8c5d09c
+		summarizeBy: none
+		sourceColumn: Customer Segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: e89e5c38-439f-4e70-9700-b1c2f58187dd
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: e174afbe-4c2d-4506-9e38-5ad47bac92e2
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column City
+		dataType: string
+		lineageTag: 39d4ac90-ce5e-4262-be1c-b4c114f2b3c1
+		summarizeBy: none
+		sourceColumn: City
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: cc0f9b0c-a95d-4b76-8ff7-fc100a01e712
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gross Sales ($)'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 6e204129-6c93-4822-85aa-fca9837a3c57
+		summarizeBy: sum
+		sourceColumn: Gross Sales ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Discount %'
+		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 7b79d86b-dea2-4a75-a6ac-5992f642e2dd
+		summarizeBy: sum
+		sourceColumn: Discount %
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Discount Amount ($)'
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 75aaa1f6-9e8d-4ba1-aad3-666dbd1d7847
+		summarizeBy: sum
+		sourceColumn: Discount Amount ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Net Sales ($)'
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 5286ac56-b8ed-4015-a456-5839368a92e6
+		summarizeBy: sum
+		sourceColumn: Net Sales ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Cost ($)'
+		dataType: int64
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 86bacefa-4fe7-4d6f-bf54-8922933e11b7
+		summarizeBy: sum
+		sourceColumn: Total Cost ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gross Profit ($)'
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: 094ec223-58e3-4c1a-9560-3e512a0eb2d6
+		summarizeBy: sum
+		sourceColumn: Gross Profit ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Profit Margin %'
+		dataType: double
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 1a3178f2-fee4-4824-865d-d99cbf8f58ec
+		summarizeBy: sum
+		sourceColumn: Profit Margin %
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Shipping Cost ($)'
+		dataType: double
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		lineageTag: fedd5a73-cf2a-441c-b34a-c2d675c14c46
+		summarizeBy: sum
+		sourceColumn: Shipping Cost ($)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ship Mode'
+		dataType: string
+		lineageTag: 179cf069-b944-4538-91ba-894436ef95e4
+		summarizeBy: none
+		sourceColumn: Ship Mode
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Delivery Status'
+		dataType: string
+		lineageTag: b098b167-2e08-4c18-a360-e1b37b4c520b
+		summarizeBy: none
+		sourceColumn: Delivery Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Customer Rating'
+		dataType: int64
+		formatString: 0
+		lineageTag: be13441a-1337-4363-9744-b5617f339c43
+		summarizeBy: sum
+		sourceColumn: Customer Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Beta_Electronics_Data = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\rsona\OneDrive\Workspace\Project\Beta Electronic Inc\1_Processed_Data\Beta_Electronics_Data.csv"),[Delimiter=",", Columns=28, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Order Date", type date}, {"Ship Date", type date}, {"Order ID", type text}, {"Sales Channel", type text}, {"Order Priority", type text}, {"Product ID", type text}, {"Product Category", type text}, {"Product Name", type text}, {"Unit Cost ($)", Int64.Type}, {"Unit Price ($)", Int64.Type}, {"Customer ID", type text}, {"Customer Name", type text}, {"Customer Segment", type text}, {"Country", type text}, {"Region", type text}, {"City", type text}, {"Quantity", Int64.Type}, {"Gross Sales ($)", Int64.Type}, {"Discount %", Percentage.Type}, {"Discount Amount ($)", type number}, {"Net Sales ($)", type number}, {"Total Cost ($)", Int64.Type}, {"Gross Profit ($)", type number}, {"Profit Margin %", Percentage.Type}, {"Shipping Cost ($)", type number}, {"Ship Mode", type text}, {"Delivery Status", type text}, {"Customer Rating", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
