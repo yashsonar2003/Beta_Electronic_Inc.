@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Beta_Electronic_Business_Performance_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "48201ede-fd24-4798-8b7c-f1260e9f3908"
+  }
+}
