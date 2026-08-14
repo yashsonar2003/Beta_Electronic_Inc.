@@ -75,9 +75,6 @@ The dataset consists of 3001 records with 28 structured columns.
 
 ----
 
-![Presentation](5_B.E.Inc._Presentation/Executive_Performance.pdf)
-
-
-
+**[Executive Performance Presentation (PDF)](Executive_Performance_Report.pdf)**
 
 
